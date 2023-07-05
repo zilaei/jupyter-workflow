@@ -7,6 +7,7 @@ This Jupyter Notebook is designed to help you in understanding planning permissi
 - Python 3.6 or higher
 - git
 - pip
+- Visual Studio Code with plugin [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) installed
 
 ## Quickstart
 
@@ -76,13 +77,21 @@ Replace your_document.ext with your actual document name and extension.
 
 ### 5 Run the Notebook
 
-Finally, you can run the Jupyter Notebook:
+#### 5.1 VS Code
+Open and run the notebook in VS code. Information about how to use Jupyter in VS code can be found at [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+
+#### 5.2 Jupyter
+Optionally you could run the notebook in Jupyter:
 ```sh
 jupyter notebook
 ```
-This will open the Jupyter Notebook interface in your web browser. Navigate to the planning_permission.ipynb file and open it. You can now run the cells in the notebook!
+This will open the Jupyter Notebook interface in your web browser. Navigate to the planning_permission.ipynb file and open it. 
 
-Optionally you could run the notebook in VS code [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+Select your previously created virtual environment `planning-env` under menu Kernel -> Change kernel. 
+
+Run all cells by selecting Kernel -> Restart & Run All -> Press "Restart and Run All Cells" in the pop-up.
+
+More information about how to setup and use Jupyter notebook can be found at [jupyter](https://docs.jupyter.org/en/latest/).
 
 ### Troubleshooting
 
