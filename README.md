@@ -78,7 +78,13 @@ Replace your_document.ext with your actual document name and extension.
 ### 5 Run the Notebook
 
 #### 5.1 VS Code
-Open and run the notebook in VS code. Information about how to use Jupyter in VS code can be found at [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+Open notebook project in VS code. 
+
+Select your previously created virtual environemnt by pressing button "Select Kernel" (top right corner).
+
+Press the "Run All" button to run all the cells.
+
+Information about how to use Jupyter in VS code can be found at [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
 
 #### 5.2 Jupyter
 Optionally you could run the notebook in Jupyter:
