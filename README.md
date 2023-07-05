@@ -33,7 +33,7 @@ source planning-env/bin/activate  # On Windows, use `planning-env\Scripts\activa
 Use pip to install the required Python dependencies from the requirements.txt file:
 
 ```sh
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 3. Copy Your Document
@@ -87,9 +87,13 @@ jupyter notebook
 ```
 This will open the Jupyter Notebook interface in your web browser. Navigate to the planning_permission.ipynb file and open it. 
 
-Select your previously created virtual environment `planning-env` under menu Kernel -> Change kernel. 
+Select your previously created virtual environment `venv` under menu Kernel -> Change kernel. 
+
+Wait for the Kernel to restart and press the button "Not Trusted" button -> Press "Trust" in the pop-up.
 
 Run all cells by selecting Kernel -> Restart & Run All -> Press "Restart and Run All Cells" in the pop-up.
+
+Wait for all the cells to be run (an asterisk '*' will be displayd for not compleated cells).
 
 More information about how to setup and use Jupyter notebook can be found at [jupyter](https://docs.jupyter.org/en/latest/).
 
