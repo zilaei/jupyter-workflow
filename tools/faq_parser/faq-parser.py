@@ -29,9 +29,9 @@ h.ignore_links = True       # remove all hyperlinks from text
 
 markdown = h.handle(element.prettify())
 
-# post-process the markdown to convert accordions to h1 headers
-# the accordions are converted to '<some title>  keyboard_arrow_down'
-# we want to replace accordians with '# <some title>'
+# post-process the markdown and convert accordions to h1 headers
+# the accordions are converted from HTML to text '<some title>  keyboard_arrow_down'
+# we want to post-process '<some title>  keyboard_arrow_down' to '# <some title>'
 lines = markdown.split('\n')
 processed_lines = []
 
